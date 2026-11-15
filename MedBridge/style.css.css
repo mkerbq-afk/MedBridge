@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.navbar {
+    background: #020617;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.logo span {
+    color: #38bdf8;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+.btn-primary {
+    background-color: #0284c7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    background-color: #0369a1;
+}
+
+.hero {
+    background: linear-gradient(rgba(2, 6, 23, 0.85), rgba(2, 6, 23, 0.85)), url('https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+    color: #fff;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hero-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.about {
+    padding: 60px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #020617;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+    color: #334155;
+    line-height: 1.8;
+}
+
+.specialties {
+    padding: 60px 0;
+    background-color: #f1f5f9;
+    text-align: center;
+}
+
+.specialties h2 {
+    font-size: 2rem;
+    color: #020617;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    color: #475569;
+    margin-bottom: 40px;
+}
+
+/* تنسيق الشبكة بشكل عمودي مرتب يمنع التداخل نهائياً */
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+    direction: rtl;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    text-align: right;
+    width: 100%;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.card h3 {
+    color: #0284c7;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+.card p {
+    color: #334155;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.operation-card {
+    border: 2px solid #0284c7;
+    background: #f0f9ff;
+}
+
+/* قسم التواصل في النهاية بشكل مستقل وواضح وكامل */
+.contact-section {
+    padding: 60px 0;
+    background-color: #020617;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+
+.contact-section h2 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.contact-section p {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    background-color: #25d366;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #020617;
+    color: #94a3b8;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #1e293b;
+}
